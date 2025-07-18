@@ -1,0 +1,25 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=./node_modules node src/index.js",
+    "dev": "cross-env NODE_PATH=./node_modules nodemon src/index.js",
+    "test": "cross-env NODE_PATH=./node_modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "iconv-lite": "^0.6.3",
+    "lodash": "^4.17.21",
+    "puppeteer-core": "^24.10.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
