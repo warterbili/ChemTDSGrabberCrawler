@@ -1,5 +1,3 @@
-const { DEFAULT_VIEWPORT } = require("puppeteer-core");
-
 module.exports = {
     // edge浏览器可执行文件地址
     executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
